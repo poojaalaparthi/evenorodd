@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background:plum;
+    color: black;
+}
+h1{
+    text-align: center;
+    color:rgb(211, 35, 161);
+    margin-top: 60px;
+}
+
+
+#name{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+
+#main{
+    width: 1200px;
+    height: 100px;
+    border: 5px solid rgb(211, 35, 161);
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50 0 50 0;
+    margin: 5px;
+}
+
+
+.score{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#scores{
+    display: flex;
+    margin-top: 35px;
+}
+
+
+#res{
+    background: rgb(211, 35, 161);
+    color: black;
+    height: auto;
+    width: 500px;
+    margin: auto;
+    margin-top: 90px;
+    border:2px soild black;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: rgb(211, 35, 161);
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 12%;
+}
+
+
